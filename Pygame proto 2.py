@@ -89,6 +89,10 @@ class Mob(pygame.sprite.Sprite):
             self.rect.y = random.randrange(-400, -100)
             self.speedy = random.randrange(5, 20)
             
+class projectile(pygame.sprite.Sprite):
+    def __ini__(sefl):
+        pygame.sprite.Sprite.__init__(self)
+        
         
         
         
